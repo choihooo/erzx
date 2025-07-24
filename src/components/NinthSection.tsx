@@ -7,7 +7,7 @@ export const NinthSection = () => {
       <div className="text-[16px]  mb-[30px]">
         ① 줄릭파마코리아의 EZRX는 개인정보 처리에 관한 업무를 총괄해서 책임지고,
         개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여
-        아래와 같이 <br /> 개인정보 보호책임자를 지정하고 있습니다.
+        아래와 <br /> 같이 개인정보 보호책임자를 지정하고 있습니다.
       </div>
       <div className="text-[16px]  mb-[20px]">
         ② 정보주체는 줄릭파마코리아 EZRX 서비스를 이용하시면서 발생한 모든
@@ -19,8 +19,8 @@ export const NinthSection = () => {
 
       <div className="text-[16px] ml-[30px] mb-[30px]">
         ∙ 개인정보보호책임자 : 법무팀 박혜진 <br />
-        ∙ 개인정보보호담당자 : 디지털혁신솔루션팀 정지연 <br />
-        ∙ 이메일 : krprivacy@zuelligpharma.com / 전화번호 : 02-2006-0600
+        ∙ 개인정보보호담당자 : 디지털혁신솔루션팀 정지연 <br />∙ 이메일 :
+        krprivacy@zuelligpharma.com / 전화번호 : 02-2006-0600
       </div>
       <div className="text-[16px]">
         ③ 줄릭파마코리아는 비밀번호에 대해 어떠한 방법으로도 회원에게 직접적으로
