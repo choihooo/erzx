@@ -1,0 +1,307 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 1000px;
+}
+
+/* Logo Section */
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+}
+
+.logo-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Visual Section */
+.visual-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+}
+
+.visual-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hero Section */
+.hero-section {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.hero-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.hero-text:last-child {
+    margin-bottom: 0;
+}
+
+/* Section Styles */
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.section-text {
+    font-size: 16px;
+}
+
+/* Table Styles */
+.table-container {
+    margin-top: 20px;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.info-table th,
+.info-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.info-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.info-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Custom Table Styles */
+.custom-table {
+    display: grid;
+    grid-template-columns: 160px 310px 310px;
+    grid-template-rows: 64px 144px 144px;
+    gap: 5px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.custom-table-large {
+    display: grid;
+    grid-template-columns: 205px 290px 320px;
+    grid-template-rows: 52px 52px 52px 52px 52px 52px 52px 180px;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.table-header {
+    background-color: #daebd1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.table-cell {
+    background-color: #f5faf2;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.table-cell-left {
+    background-color: #f5faf2;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.table-cell-text {
+    background-color: #f5faf2;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.table-cell-span-5 {
+    background-color: #f5faf2;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-row: span 5;
+}
+
+.table-cell-span-7 {
+    background-color: #f5faf2;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-row: span 7;
+}
+
+/* Indent Styles */
+.section-text-indent {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.section-text-indent-deep {
+    font-size: 16px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+/* Text Alignment */
+.text-left {
+    text-align: left;
+}
+
+/* List Styles */
+.section-list {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.section-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Bold Text */
+.bold {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .content {
+        width: 90%;
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        width: 95%;
+    }
+    
+    .hero-title {
+        font-size: 24px;
+    }
+    
+    .section-title {
+        font-size: 18px;
+    }
+    
+    .hero-text,
+    .section-text {
+        font-size: 14px;
+    }
+    
+    .info-table {
+        font-size: 14px;
+    }
+    
+    .info-table th,
+    .info-table td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        width: 98%;
+    }
+    
+    .hero-title {
+        font-size: 20px;
+    }
+    
+    .section-title {
+        font-size: 16px;
+    }
+    
+    .hero-text,
+    .section-text {
+        font-size: 13px;
+    }
+    
+    .info-table {
+        font-size: 12px;
+    }
+    
+    .info-table th,
+    .info-table td {
+        padding: 6px;
+    }
+} 

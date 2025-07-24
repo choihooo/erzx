@@ -1,6 +1,6 @@
 export default function FourthTable() {
   return (
-    <div className="grid grid-cols-[205px_290px_320px] grid-rows-[52px_52px_52px_52px_52px_52px_52px_160px] gap-[10px] text-[16px] leading-[1.6]">
+    <div className="grid grid-cols-[205px_290px_320px] grid-rows-[52px_52px_52px_52px_52px_52px_52px_180px] gap-[10px] text-[16px] leading-[1.6]">
       {/* Header */}
       <div className="bg-[#daebd1] flex items-center justify-center rounded-[10px]">
         구 분
@@ -53,7 +53,7 @@ export default function FourthTable() {
       </div>
 
       {/* Row: 배송/반품 목적 */}
-      <div className="px-[4px] py-[2px]  bg-[#f5faf2] rounded-[10px]">
+      <div className="flex items-center justify-center bg-[#f5faf2] rounded-[10px]">
         <div className="text-left">
           노보노디스크, 노바티스, 한독,
           <br />
@@ -61,7 +61,8 @@ export default function FourthTable() {
           <br />
           스제약, GSK, 한국오가논, 베링
           <br />
-          거인겔하임 등<br /> ** 계약된 고객사는 변동될 수 있음
+          거인겔하임 등<br /> ** 계약된 고객사는 변동될
+          <br /> 수 있음
         </div>
       </div>
       <div className="flex items-center justify-center bg-[#f5faf2] rounded-[10px]">
